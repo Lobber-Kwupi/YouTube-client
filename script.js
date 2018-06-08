@@ -129,9 +129,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	//отпустили кнопку мыши
 	function onunclick(e){
 		clicked = false; //клика теперь нет, блок не крутим
-		setTimeout(function () { //таймаут на прокрутке
-			contentblk.scrollLeft = Math.floor(contentblk.scrollLeft/318) * 318; //смещаем блок влево если перекрутили
-		},20);
 		return;
 	}
 
