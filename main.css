@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.otf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #3a6d6c;
+    overflow: hidden;
+    height: 100%;
+    font-family: "Montserrat-Regular", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#searchblk {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search-input {
+    width: 88%;
+    height: 30px;
+}
+
+.search-btn {
+    height: 36px;
+    width: 10%;
+    transition: all 0.5s;
+}
+
+.search-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#contentblk {
+    width: auto;
+    height: 100%;
+    overflow-x: scroll;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.output-video {
+    display: block;
+    height: 100%;
+}
+
+.output {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #9bc6c3;
+    padding: 3px;
+    border-radius: 3px;
+    background: #9bc6c3;
+    white-space: normal;
+    vertical-align: top;
+    text-align: center;
+}
+
+.output img {
+    height: 170px;
+    width: auto;
+}
+
+.output .descript {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.descript {
+    font-weight: cursive;
+    font-size: 14px;
+}
+
+.author {
+    color: red;
+    font-size: 14px;
+}
+
+.publdate {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+    
+    
+    .output {
+        width: 250px;
+        height: 333px;
+    }
+    
+    .output img {
+        height: 142px;
+    }
+    
+    .title {
+        font-size: 12px;
+    }
+    
+    .descript {
+        font-size: 12px;
+    }
+    
+    .author {
+        font-size: 12px;
+    }
+    
+    .publdate {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+    
+    .output {
+        width: 200px;
+        height: 266px;
+    }
+    
+    .output img {
+        height: 113px;
+    }
+    
+    .title {
+        font-size: 10px;
+    }
+    
+    .descript {
+        font-size: 10px;
+    }
+    
+    .author {
+        font-size: 10px;
+    }
+    
+    .publdate {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+    
+    .output {
+        width: 150px;
+        height: 200px;
+    }
+    
+    .output img {
+        height: 85px;
+    }
+    
+    .title {
+        font-size: 8px;
+    }
+    
+    .descript {
+        font-size: 8px;
+    }
+    
+    .author {
+        font-size: 8px;
+    }
+    
+    .publdate {
+        font-size: 8px;
+    }
+}
+

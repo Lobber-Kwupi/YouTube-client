@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>YouTube-client</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+	
+	<section id="searchblk">
+        <div class="search">
+            <form action="#" class="search" onsubmit="getResult(document.getElementById('search-input').value);return false;"> 
+                <input type="text" id="search-input" name="search" class="query search-input" autocomplete="off">
+                <button type="submit" class="search-btn">Найти</button>
+            </form>
+        </div>
+    </section>
+	<section class="output-video">
+		<div id="contentblk"></div>
+	</section>
+	
+</body>
+</html>
